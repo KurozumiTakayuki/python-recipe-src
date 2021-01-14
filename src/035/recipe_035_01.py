@@ -1,0 +1,6 @@
+t1 = ()
+t2 = (1)
+t3 = (1, )
+print(type(t1))
+print(type(t2))
+print(type(t3))

@@ -1,0 +1,8 @@
+r1 = range(4)
+r2 = range(4, 7)
+r3 = range(3, 10, 2)
+r4 = range(10, 6, -1)
+print(list(r1))
+print(list(r2))
+print(list(r3))
+print(list(r4))
