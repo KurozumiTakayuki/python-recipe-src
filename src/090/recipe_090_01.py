@@ -7,7 +7,7 @@ class User:
         return "ユーザ名:" + self.name + ", メールアドレス:" + self.mail
 
     def __repr__(self):
-        return str({'name': self.name, 'age': self.mail})
+        return str({'name': self.name, 'mail': self.mail})
 
 
 user = User("Suzuki", "suzuki@hoge.com")

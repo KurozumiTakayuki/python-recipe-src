@@ -5,5 +5,5 @@ from PIL.ExifTags import TAGS
 
 image = Image.open("pillow_sample.jpg")
 exif = image._getexif()
-for id, value in exif.items():
-    print(id, TAGS.get(id), value)
+for id_, value in exif.items():
+    print(id_, TAGS.get(id_), value)
